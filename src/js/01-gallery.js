@@ -84,8 +84,9 @@ const galleryMarkup = images.map(({ preview, original, description }) => {
 }).join('');
 galleryContainer.innerHTML = galleryMarkup;
 
-import SimpleLightbox from 'simplelightbox';
+// import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+
 window.SimpleLightbox = SimpleLightbox;
 // SimpleLightbox kullanımı
 const lightbox = new window.SimpleLightbox('.gallery a', {
