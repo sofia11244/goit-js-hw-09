@@ -9,7 +9,14 @@ body {
   line-height: 1.5;
 
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 
+a:hover{
+  color: rgba(78, 117, 255, 1);
+}
 .menu {
   padding-bottom: 40px;
 }
